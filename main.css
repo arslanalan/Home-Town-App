@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5 {
 
 header, nav, footer, section, article, div {
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 ul {
@@ -127,6 +128,7 @@ main {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 }
 
 /*
@@ -149,6 +151,7 @@ main {
   background-image: url("./images/dog.jpg");
   background-size: cover;
   height: 300px;
+  width: 100%;
 }
 
 .hero article {
@@ -171,11 +174,12 @@ main {
  */
 
 .top-news {
-  float: right;
+  float: left;
   width: 320px;
   height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
+  width: 100%;
 }
 
 .news__title {
@@ -220,6 +224,7 @@ main {
   width: 480px;
   float: left;
   padding-top: 1em;
+  width: 100%;
 }
 
 .scores__table {
@@ -266,9 +271,10 @@ main {
  */
 
 .weather {
-  float: right;
+  float: left;
   width: 320px;
   padding: 1em;
+  width: 100%;
 }
 
 .weather__location {
