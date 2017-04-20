@@ -391,6 +391,11 @@ footer a {
   display: none;
 }
 
+.contained_table {
+    width: 100%;
+    overflow-x: auto;
+}
+
 @media screen and (min-width: 550px) {
     .hero,
     .top-news {
@@ -491,4 +496,8 @@ footer a {
         width: 32px;
         fill: #E0E0E0;
     }
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+    body { font-size: 1em; }
 }
