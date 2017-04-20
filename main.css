@@ -491,6 +491,9 @@ footer a {
 
 /*Responsive navbar. */
 @media screen and (max-width: 700px) {
+    .scores__location {
+        display: none;
+    }
 /*Header logo and title styles */
     .header__logo {
         height: 48px;
