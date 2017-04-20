@@ -491,6 +491,11 @@ footer a {
 
 /*Responsive navbar. */
 @media screen and (max-width: 700px) {
+/*Hide the image on recent news to make it more readable*/
+    .snippet__thumbnail {
+        display: none;
+    }
+/*Hide location column on scores table*/
     .scores__location {
         display: none;
     }
